@@ -40,6 +40,8 @@ entry_peso.pack(pady=10)
 
 entry_altura = ctk.CTkEntry(app, placeholder_text="Altura en cm (ej: 175)")
 entry_altura.pack(pady=10)
+entry_altura = ctk.CTkEntry(app, placeholder_text="Altura en cm (ej: 175)")
+entry_altura.pack(pady=10)
 
 btn_calcular = ctk.CTkButton(app, text="Calcular IMC", command=calcular_imc)
 btn_calcular.pack(pady=15)
