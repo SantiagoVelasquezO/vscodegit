@@ -1,20 +1,28 @@
-def cuadrado(x,y):
-    return x * y
+# def cuadrado(x,y):
+#     return x * y
 
 
-print(cuadrado(5,8))
+# print(cuadrado(5,8))
 
 # def paseosantafe(som,svo):
 #     return som * svo
 
 # print(paseosantafe(16,30))
 
-int = som = 16
-int = svo = 30
-def paseosantafe2(som,svo):
-    return som * svo
+# int = som = 16
+# int = svo = 30
+# def paseosantafe2(som,svo):
+#     return som * svo
 
-print(paseosantafe2(som,svo))
+# print(paseosantafe2(som,svo))
+
+string = mensajedeamor = "Muñeca linda que sorpresa tan linda "
+string = totaldinero = "Reune la suma necesaria para adquirir los objetos para la moto "
+string = concatenador = "Pero ahora tienes una nueva tarea: "
+float = dineronecesario = 500.000
+
+def requerimientospaseo(mensajedeamor,totaldinero, concatenador, dineronecesario ):
+    print(mensajedeamor, + concatenador, + totaldinero, + " El dinero necesario es: ", + dineronecesario)
 
 # <div class="row">
 #             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse accusantium? Dolorem, ab possimus. Omnis delectus beatae, consequuntur fugit accusantium quibusdam odit at vel placeat est nemo, commodi nam quaerat.</p>
