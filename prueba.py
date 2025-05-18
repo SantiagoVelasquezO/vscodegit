@@ -19,10 +19,12 @@
 string = mensajedeamor = "Muñeca linda que sorpresa tan linda "
 string = totaldinero = "Reune la suma necesaria para adquirir los objetos para la moto "
 string = concatenador = "Pero ahora tienes una nueva tarea: "
-float = dineronecesario = 500.000
+int = dineronecesario = 500000
 
-def requerimientospaseo(mensajedeamor,totaldinero, concatenador, dineronecesario ):
-    print(mensajedeamor, + concatenador, + totaldinero, + " El dinero necesario es: ", + dineronecesario)
+def requerimientospaseo(mensajedeamor, totaldinero, concatenador, dineronecesario):
+    print(mensajedeamor + concatenador + totaldinero + " El dinero necesario es: $" + str(dineronecesario))
+
+requerimientospaseo(mensajedeamor, totaldinero, concatenador, dineronecesario)
 
 # <div class="row">
 #             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse accusantium? Dolorem, ab possimus. Omnis delectus beatae, consequuntur fugit accusantium quibusdam odit at vel placeat est nemo, commodi nam quaerat.</p>
