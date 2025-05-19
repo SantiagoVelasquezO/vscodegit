@@ -26,6 +26,11 @@ def requerimientospaseo(mensajedeamor, totaldinero, concatenador, dineronecesari
 
 requerimientospaseo(mensajedeamor, totaldinero, concatenador, dineronecesario)
 
+def requerimientospaseo(mensajedeamor, totaldinero, concatenador, dineronecesario):
+    mensaje = f"{mensajedeamor}{concatenador}{totaldinero} El dinero necesario es: ${dineronecesario}"
+    print(mensaje) #forma mejor de hacerlo 
+
+
 # <div class="row">
 #             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, esse accusantium? Dolorem, ab possimus. Omnis delectus beatae, consequuntur fugit accusantium quibusdam odit at vel placeat est nemo, commodi nam quaerat.</p>
 #         </div>
