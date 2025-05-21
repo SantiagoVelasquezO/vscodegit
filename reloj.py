@@ -26,6 +26,10 @@ reloj_label.pack()
 
 # Iniciar reloj
 actualizar_hora()
+# actualizar_hora()
+# actualizar_hora()
+# actualizar_hora()
+# actualizar_hora()
 
 # Ejecutar app
 app.mainloop()
