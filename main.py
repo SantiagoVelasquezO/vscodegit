@@ -67,3 +67,7 @@ resultado_label.pack(pady=10)
 
 # Ejecutar app
 app.mainloop()
+# Ejecutar app
+# Ejecutar app
+# Ejecutar app
+# Ejecutar app
