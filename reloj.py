@@ -14,6 +14,8 @@ def actualizar_hora():
 # Ventana principal
 app = ctk.CTk()
 app.title("Reloj Digital")
+app.title("Reloj Digital")
+app.title("Reloj Digital")
 app.geometry("300x200")
 
 # Título
